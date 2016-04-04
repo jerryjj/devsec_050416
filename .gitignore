@@ -1,1 +1,4 @@
 demo/setup.env
+demo/mysecret.yaml
+demo/*.local.md
+
