@@ -11,6 +11,8 @@ In PDF format available here Kubernetes+Secrets.pdf
 These demos expect that you have a Kubernetes cluster running
 and your environment has been configured for it. (Credentials set and SDK installed)
 
+* [Secrets basics](/jerryjj/devsec_050416/blob/master/demo/secrets.md)
+
 ### My setup
 
 I used Google Container Engine (GKE) for my setup.
