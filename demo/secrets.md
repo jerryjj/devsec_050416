@@ -66,8 +66,8 @@ data:
 The contents to the _data_ has been generated as such:
 
 ```sh
-echo "admin" | base64
-echo "really-secret-password" | base64
+echo "admin" | base64 # username
+echo "really-secret-password" | base64 # password
 ```
 
 Now lets deploy this secret using the _kubectl_ -command.
