@@ -2,7 +2,7 @@
 
 ## Demo 1: Using kubectl create secret
 
-Lets assume we have to files in our filesystem whose contents we want to expose
+Lets assume we have two files in our filesystem whose contents we want to expose
 as secrets.
 
 Lets create those files first:
@@ -50,7 +50,7 @@ rm -fR ./tmp/manual
 ## Demo 2: Using kubectl create and using Secrets in a Pod
 
 Next lets create a secret manually with the Secret-object type.
-First lets create a Secret definition file to a filename _./mysecret.yaml_:
+First lets create a Secret definition file to path _./tmp/mysecret.yaml_:
 
 ```yaml
 apiVersion: v1
@@ -73,7 +73,7 @@ echo "really-secret-password" | base64
 Now lets deploy this secret using the _kubectl_ -command.
 
 ```sh
-kubectl create -f ./mysecret.yaml
+kubectl create -f ./tmp/mysecret.yaml
 ```
 
 Again lets make sure we can see our Secret:
@@ -103,5 +103,5 @@ And lets cleanup:
 
 ```sh
 kubectl delete pods mysecret-fs-pod
-rm ./mysecret.yaml
+rm ./tmp/mysecret.yaml
 ```
