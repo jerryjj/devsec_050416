@@ -4,7 +4,7 @@ This is a presentation I held at "DevOps and Security" -meetup on 5th of April 2
 
 ## Presentation
 
-In PDF format available here Kubernetes+Secrets.pdf
+In PDF format available here [Kubernetes+Secrets-github.pdf](https://github.com/jerryjj/devsec_050416/blob/master/Kubernetes+Secrets-github.pdf)
 
 ## Demos
 
