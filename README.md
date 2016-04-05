@@ -12,6 +12,7 @@ These demos expect that you have a Kubernetes cluster running
 and your environment has been configured for it. (Credentials set and SDK installed)
 
 * [Secrets basics](https://github.com/jerryjj/devsec_050416/blob/master/demo/secrets.md)
+* [ConfigMaps basics](https://github.com/jerryjj/devsec_050416/blob/master/demo/configmaps.md)
 
 ### My setup
 
